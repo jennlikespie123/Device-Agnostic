@@ -4,6 +4,7 @@ body {
 	max-width: 850px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 	
 	}
 
@@ -20,27 +21,47 @@ body {
 .title {
 	text-align: center;
 	font-size: 150%;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	}
 	
 .latin {
 	color: #fff; 
+	font-size: 80%;
+	font-family: "Times New Roman", Times, serif;
 	background-color: #000;
+	border: 10px solid #000;
 	max-width: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	font-family: helvetica;
+	}
+	
+.line {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 12px;
 	}
 	
 .tumblr {
-	text-align: center;
-	padding-left: 30px;
 	padding: 10px;
 	border: 1px solid #000;
 	}
 	
+.smallpic {
+	text-align: center;
+	}
+	
+.firstsection {
+	padding-bottom: 20px;
+	}
+	
+.secondsection {
+	padding-bottom: 10px;
+	}
+	
 .indented {
-	text-indent: 50px;
+	text-indent: 15px;
 	}
 	
 .words {
@@ -48,11 +69,38 @@ body {
 	font-size: 90%;
 	max-width: 46%;
 	display: inline-block;
-	padding:0 15px;
+	padding: 0 15px;
 	border-left: 1px solid black;
 	line-height: 150%;
+	vertical-align: top;
 	}
 	
-.words:last-of-type {
+.two {
 	border-right: 1px solid black;
 	}
+	
+.notjustify {
+	text-align: left;
+	font-size: 90%;
+	max-width: 46%;
+	display: inline-block;
+	padding: 0 15px;
+	border-left: 1px solid black;
+	line-height: 150%;
+	vertical-align: top;
+	}
+	
+.bigpic {
+	text-align: center;
+	width: 800px;
+	padding: 10px;
+	border: 1px solid #000;
+	}
+	
+.title2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 120%;
+	}
+
