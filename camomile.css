@@ -37,6 +37,12 @@ body {
 	text-align: center;
 	}
 	
+.lineone {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	}
+	
 .line {
 	text-align: center;
 	padding-top: 5px;
@@ -103,4 +109,3 @@ body {
 	margin-right: auto;
 	font-size: 120%;
 	}
-
