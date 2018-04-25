@@ -109,3 +109,34 @@ body {
 	margin-right: auto;
 	font-size: 120%;
 	}
+
+
+
+
+@media only screen and (max-device-width: 600px) {
+	.words {
+		max-width: 100%;
+		border: none;
+		font-size: 90%;
+		}
+	
+	.tumblr {
+		width: 500px;
+		}
+		
+	.firstsection {
+		padding-bottom: 30px;
+		}
+		
+	.secondsection {
+		padding-top: 30px;
+		}
+		
+	.title {
+		font-size: 230%;
+		}
+	.latin {
+		font-size: 120%;
+		}
+		
+	}
